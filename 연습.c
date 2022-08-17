@@ -1,4 +1,4 @@
-inlude <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
@@ -6,7 +6,7 @@ int main(void)
 	double db = 1.234567890123456789;
 
 	printf("float형 변수의 값 : %.20f\n", ft);
-	prinft("double형 변수의 값 : %20lf\n", db);
+	printf("double형 변수의 값 : %.20lf\n", db);
 
 	return 0;
 }
