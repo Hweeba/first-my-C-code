@@ -6,6 +6,6 @@ main(){
 	int b;
 	b=3;
 	a=2;
-	printf("a는%d, b는 %d입니다.\n",a,b); 
+	printf("a:%d, b:%d., a+b=%d\n",a,b,a+b); 
 }
 
